@@ -1,0 +1,335 @@
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  background-color: #c0c0c0;
+  padding: 0px 0px 0px 0px;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#img1 {
+  padding: 15px 10px 20px;
+  position: absolute;
+}
+.menu {
+  text-align: center;
+  background-color: #66cdaa;
+}
+.menu ul {
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+  font: 16px arial, tahoma, verdana;
+}
+.menu ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.home,
+.menu ul li:hover {
+  background: #dcdcdc;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.submenu1 {
+  display: none;
+}
+
+.menu ul li:hover .submenu1 {
+  display: block;
+  position: absolute;
+  background: #66cdaa;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.menu ul li:hover .submenu1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu ul li:hover .submenu1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  text-align: left;
+}
+
+#rod {
+  background-color: #66cdaa;
+  height: 100px;
+  font-family: arial;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+#titulo {
+  font-family: Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+figure figcaption {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#texto1 {
+  background-color: #dcdcdc;
+  padding: 60px 20px 60px 20px;
+  font-family: Courier, monospace;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#texto1 b,
+br {
+  font-size: 13px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+#texto1 b {
+  font-size: 20px;
+  text-align: left;
+  margin: 0 auto;
+  display: block;
+}
+
+#texto1 p::first-letter {
+  padding-left: 50px;
+}
+
+#texto2 p::first-letter {
+  padding-left: 50px;
+}
+
+#img1 {
+  width: 130px;
+  height: 135px;
+  padding: 15px 10px 20px 10px;
+  position: relative;
+  left: 98px;
+  float: left;
+}
+
+#img2 {
+  background-color: white;
+  height: 810px;
+}
+
+#esc {
+  width: 350px;
+  height: 200px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#s {
+  width: 350px;
+  height: 200px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#a,
+#cobraverde,
+#cascavel,
+#libelula {
+  width: 350px;
+  height: 230px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#ab,
+#abelha,
+#vespa {
+  width: 315px;
+  height: 210px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#d,
+#aranha {
+  width: 400px;
+  height: 260px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#c,
+#sapo {
+  width: 400px;
+  height: 280px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#j {
+  width: 400px;
+  height: 280px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#coral {
+  width: 400px;
+  height: 300px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#perneira {
+  width: 300px;
+  height: 230px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#acidente {
+  width: 360px;
+  height: 240px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#acidente2,
+#pe {
+  width: 400px;
+  height: 290px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#marrom,
+#viuvanegra,
+#amarelo {
+  width: 350px;
+  height: 210px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#marrom2,
+#picada {
+  width: 350px;
+  height: 250px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#picadape,
+#mancha1,
+#picadas {
+  width: 400px;
+  height: 250px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#picada2 {
+  width: 300px;
+  height: 380px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#mancha {
+  width: 300px;
+  height: 400px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#necrose {
+  width: 400px;
+  height: 600px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+#necrose2 {
+  width: 400px;
+  height: 250px;
+  padding: 15px 0px 0px 0px;
+  margin: 0 auto;
+  display: block;
+}
+
+.myButton {
+  box-shadow: 0px 15px 27px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #66cdab 100%);
+  background-color: #599bb3;
+  border-radius: 13px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  position: absolute;
+  right: 30px;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #66cdab 5%, #599bb3 100%);
+  background-color: #66cdab;
+  position: absolute;
+}

@@ -1,0 +1,45 @@
+body {
+  background-position: center;
+  background-color: #c0c0c0;
+  padding: 0px 0px 0px 0px;
+}
+
+#questao {
+  background-color: #dcdcdc;
+  padding: 60px 20px 60px 20px;
+  font-family: Courier, monospace;
+  text-align: justify;
+  font-size: 20px;
+  margin: 40px 20px 40px 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.myButton {
+  box-shadow: 0px 15px 27px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #66cdab 100%);
+  background-color: #599bb3;
+  border-radius: 13px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  position: absolute;
+  right: 50px;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #66cdab 5%, #599bb3 100%);
+  background-color: #66cdab;
+  position: absolute;
+}
+.respostas {
+  padding-left: 60px;
+}
+li {
+  list-style-type: none;
+}

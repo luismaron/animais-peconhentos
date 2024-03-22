@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.page {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("/caminhovazio.png"), url("/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.page:hover {
+  cursor: pointer;
+}
+
+.caminho {
+  position: fixed;
+  top: 0;
+}
+
+.personagem {
+  position: fixed;
+  width: 18%;
+  height: 50%;
+  top: 45%;
+  left: 2%;
+  background-size: contain;
+}
+
+.mochila {
+  position: fixed;
+  width: 13%;
+  height: 24%;
+  top: 75%;
+  right: 1%;
+}
